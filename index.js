@@ -23,28 +23,6 @@ for (const folder of commandFolders) {
     }
 }
 
-client.once(Events.ClientReady, async readyClient => {
-    console.log(`Ready! Logged in as ${readyClient.user.tag}`);
-
-    // Укажите ID сервера и ID канала
-    const guildId = '1248140544912392273';
-    const channelId = '1250679732681572402';
-    const messageContent = '<@571739748545200147> сам иди'; // Сообщение для отправки
-
-    try {
-        const guild = await client.guilds.fetch(guildId);
-        const channel = await guild.channels.fetch(channelId);
-
-        if (channel.isTextBased()) { // Проверка, является ли канал текстовым
-            await channel.send(messageContent);
-            console.log('Message sent successfully.');
-        } else {
-            console.log('Specified channel is not a text channel.');
-        }
-    } catch (error) {
-        console.error('Error sending message:', error);
-    }
-});
 
 client.on(Events.InteractionCreate, async interaction => {
     if (!interaction.isChatInputCommand()) return;
