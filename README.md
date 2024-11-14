@@ -94,7 +94,7 @@ Here’s a sample breakdown of how each section works with your configuration:
   "own_sub": {
     "main": null,
     "discod mod": null,
-    "admin": "109358918348388...,
+    "admin": "109358918348388..."
     ...
   },
   "channel_id": "12443245505152...."
