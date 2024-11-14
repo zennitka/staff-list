@@ -7,7 +7,6 @@ Welcome to the Discord bot repository! This guide will walk you through setting 
 Ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (v16 or newer recommended)
 - A Discord bot token (from the [Discord Developer Portal](https://discord.com/developers/applications))
-- Access to the bot's `my_config.json` configuration file
 
 To set up and run the bot from your repository, follow these instructions:
 
@@ -22,7 +21,7 @@ To download the full code:
 - Run `npm install` to install all the required dependencies.
 
 ### 3. Configure the Bot
-- Open the `config.json` file and add your **token**, **clientId**, and **guildId** values.
+- Open the `my_config.json` file and add your **token**, **clientId**, and **guildId** values.
   
 ### 4. Start the Bot
 You have a `start.bat` file for easy startup. To launch the bot:
