@@ -35,15 +35,15 @@ Here's a guide on how to set up the `config.json` file in your project. This fil
 
 1. **`sub_type`**: 
    - This section defines individual roles and their corresponding Discord role IDs.
-   - Each role name (e.g., `"Глава проекта"`, `"Куратор"`) is associated with a unique role ID from your Discord server.
+   - Each role name (e.g., `"your_role"`, `"your_role_1"`) is associated with a unique role ID from your Discord server.
    
 2. **`own_type`**:
-   - This field groups roles into different categories, like `"Основной персонал проекта"` or `"Администрация Turbo"`.
+   - This field groups roles into different categories, like `"main_role"` or `"main_role_2"`.
    - Each group contains an array of role names from `sub_type`, which allows your bot to identify these specific roles under a single category.
 
 3. **`own_color`**:
    - This field assigns a unique color (in HEX format) to each role category defined in `own_type`.
-   - For example, `"Основной персонал проекта"` is assigned `"#E1004C"`, and `"Администрация MediumRP"` is assigned `"#FBE156"`.
+   - For example, `"main_role"` is assigned `"#E1004C"`, and `"Main_role_3"` is assigned `"#FBE156"`.
    - These colors can be used by the bot to stylize messages or embeds based on role categories.
 
 4. **`own_image`**:
@@ -52,7 +52,7 @@ Here's a guide on how to set up the `config.json` file in your project. This fil
    
 5. **`own_sub`**:
    - This field specifies a Discord role ID for certain categories in `own_type` if they require an overarching role.
-   - If a category has no overarching role, it’s set to `null`. Otherwise, it links to a Discord role ID (e.g., `"Администрация NoRules": "1093589183483887798"`).
+   - If a category has no overarching role, it’s set to `null`. Otherwise, it links to a Discord role ID (e.g., `"main_role2": "role_id"`).
    
 6. **`channel_id`**:
    - This field defines the ID of the main channel where the bot will send its messages.
@@ -65,39 +65,39 @@ Here’s a sample breakdown of how each section works with your configuration:
 ```json
 {
   "sub_type": {
-    "Глава проекта": "973432174445469716",
-    "Куратор": "1175147011188723722",
+    "owner": "973432174445469716",
+    "skibidi": "1175147011188723722",
     ...
   },
   "own_type": {
-    "Основной персонал проекта": [
-      "Глава проекта",
-      "Куратор",
+    "main": [
+      "owner",
+      "skibidi",
       ...
     ],
-    "Дискорд персонал": [
-      "Менеджер ДС модерации",
-      "Старшие модераторы ДC",
+    "discord mod": [
+      "main mod",
+      "mod",
       ...
     ]
   },
   "own_color": {
-    "Основной персонал проекта": "#E1004C",
-    "Дискорд персонал": "#6D48D7",
+    "main": "#E1004C",
+    "discord mod": "#6D48D7",
     ...
   },
   "own_image": {
-    "Основной персонал проекта": "https://media.discordapp.net/attachments/816145489803083779/1254841101014269972/discotools-xyz-icon.png...",
-    "Дискорд персонал": "https://media.discordapp.net/attachments/816145489803083779/1254841100779257927/discotools-xyz-icon_1.png...",
+    "main": "https://media.discordapp.net/attachments/816145489803083779/1254841101014269972/discotools-xyz-icon.png...",
+    "discord mod": "https://media.discordapp.net/attachments/816145489803083779/1254841100779257927/discotools-xyz-icon_1.png...",
     ...
   },
   "own_sub": {
-    "Основной персонал проекта": null,
-    "Дискорд персонал": null,
-    "Администрация NoRules": "1093589183483887798",
+    "main": null,
+    "discod mod": null,
+    "admin": "109358918348388...,
     ...
   },
-  "channel_id": "1244324550515232838"
+  "channel_id": "12443245505152...."
 }
 ```
 
