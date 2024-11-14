@@ -64,11 +64,11 @@
     "Администрация Turbo": "#DC143C"
   },
   "own_image": {
-    "Основной персонал проекта": "https://media.discordapp.net/attachments/816145489803083779/1254841101014269972/discotools-xyz-icon.png?ex=667af558&is=6679a3d8&hm=c4303d2ccaa025766e8dc755eb5db1b182c9f608c8339a57c22058a6108a4b9e&=&format=webp&quality=lossless&width=591&height=591",
-    "Дискорд персонал": "https://media.discordapp.net/attachments/816145489803083779/1254841100779257927/discotools-xyz-icon_1.png?ex=667af558&is=6679a3d8&hm=3c22e22d97ed3dff8637d1111a73072d305384e766b2220de288a27ba3d23fe2&=&format=webp&quality=lossless&width=521&height=547",
-    "Администрация NoRules": "https://media.discordapp.net/attachments/1168258577580957697/1288525651464294441/discotools-xyz-icon_3.png?ex=66f58086&is=66f42f06&hm=c408ede0d1e903ddd3c33a1bc857ed5cfde5f18bd70b322ca73515ac83a35e88&=&format=webp&quality=lossless",
-    "Администрация MediumRP": "https://cdn.discordapp.com/attachments/816145489803083779/1255392748815650836/discotools-xyz-icon_3.png?ex=667cf71b&is=667ba59b&hm=f0072cf97efdeccda0f87f440753555b907e2b0da9e81e956a36f44f6148016b&",
-    "Администрация Turbo": "https://cdn.discordapp.com/attachments/816145489803083779/1268209755436875870/discotools-xyz-icon.png?ex=66ab97df&is=66aa465f&hm=6c2ea22702e5650e9c5c76456b1f6c126b45a6c338f3faa480ac9bd6338ff8ec&"
+    "Основной персонал проекта": "",
+    "Дискорд персонал": "",
+    "Администрация NoRules": "",
+    "Администрация MediumRP": "",
+    "Администрация Turbo": ""
   },
   "own_sub": {
     "Основной персонал проекта": null,
@@ -77,5 +77,5 @@
     "Администрация MediumRP": "1209426536449445900",
     "Администрация Turbo": "1245421419253203066"
   },
-  "channel_id": "1244324550515232838"
+  "channel_id": ""
 }
