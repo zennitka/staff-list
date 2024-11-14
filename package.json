@@ -1,0 +1,16 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "Описание вашего проекта",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Zen",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "install": "^0.13.0",
+    "npm": "^10.8.2"
+  }
+}
