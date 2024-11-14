@@ -105,5 +105,3 @@ Here’s a sample breakdown of how each section works with your configuration:
 - Make sure each ID is accurate and corresponds to the actual roles and channels in your Discord server.
 - The URLs in `own_image` should be accessible links to the images you want to use.
 - The `channel_id` should be the ID of the channel where you want the bot to send notifications or messages.
-
-This setup allows your bot to manage and display information about roles and categories in a structured way. Let me know if you need further assistance with the configuration or the bot code!
